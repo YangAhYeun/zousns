@@ -1,0 +1,113 @@
+*{margin:0;
+    padding:0;
+}
+
+    /*html{
+ margin:0 auto; */
+
+}
+body{
+    font-size: 100%;
+    /* background-image:linear-gradient(to left bottom, rgb(0, 102, 128), white); */
+    background-color: antiquewhite;
+    /* background-size: cover; */
+
+}
+
+main{
+    margin:0 auto;
+    padding:20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: #256aa3;
+    /* transform: translateX(20%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px dotted white;
+    margin-left: 45px;
+    color: rgb(255, 255, 255);
+    background-color: #3e96dd;
+}
+/*
+h3{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    margin: 10px;
+}*/
+
+.pic1{
+    margin: 10px;
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 70px;
+    border: 10px double rgb(255, 255, 255);
+}
+
+p{
+    text-align: center;
+    font-size:12px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btns{
+    width:230px;
+    padding-left: 70px;
+
+}
+li{
+    list-style-type: none;
+    /* display: flex;
+     */
+     float: left;
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    margin-right: 100px;
+    
+    text-decoration: none;
+    /* text-decoration: aliceblue; */
+    
+}
+
+.btn{
+    color: white;
+}
+button{
+    
+    background-color: #ffb9bd;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    /* margin: 5px; */
+    text-align: center;
+    font-size:12px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+    /* margin-top: 0; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    
+
+
+}
