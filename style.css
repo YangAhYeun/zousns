@@ -67,7 +67,8 @@ p{
 
 .btns{
     width:230px;
-    padding-left: 70px;
+    padding-left: 55px;
+
 
 }
 li{
@@ -84,20 +85,23 @@ li{
     
 }
 
-.btn{
+a{
     color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 button{
     
-    background-color: #ffb9bd;
+    background-color: #ff9a9f;
     width: 80%;
     height: 30px;
     border-radius: 5px;
     border-style: none;
     /* margin: 5px; */
     text-align: center;
+
     font-size:12px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 
     /* margin-top: 0; */
@@ -106,6 +110,33 @@ button{
     margin: 5px;
     padding-bottom: 5px;
     padding-top: 5px;
+
+    
+
+
+}
+
+button:hover{
+    
+    background-color: #9ac6ff;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    /* margin: 5px; */
+    text-align: center;
+
+    font-size:12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+    /* margin-top: 0; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
 
     
 
